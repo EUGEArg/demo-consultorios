@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -135,6 +136,8 @@ h1 {
     text-transform: uppercase;
     color: #fdfdfd;
     text-shadow: 2px 2px 4px #3a3a3a;
+    margin: 20px;
+    line-height: 1.2;
 }
 
  h2 {
@@ -142,13 +145,19 @@ h1 {
     text-shadow: 2px 2px 2px #3a3a3a;
     color: #fdfdfd;
     text-transform: uppercase;
+    margin: 0;
 } 
+
+.btn-turnos {
+    margin: 20px;
+}
 
 .turnos {
     font-size: 20px;
     text-transform: uppercase;
     color: #fdfdfd;
 
+    
     padding: 10px 20px;
     background: #7e7e7e;
     border-radius: 5px;
@@ -190,8 +199,8 @@ h1 {
 
 /* INFO SECTION */
 .info-container {
-    height: 70vh;
-    margin: 50px 20px;
+    margin: 50px auto;
+    max-width: 992px;
 
 }
 
@@ -213,8 +222,7 @@ h1 {
 }
 
 .text-info {
-    width: 800px;
-   margin: 40px auto;
+   margin: 40px 20px;
 }
 
 
@@ -245,13 +253,13 @@ h1 {
 }
 
 .espec-area {
-    height: 70vh;
     background: #cccccc;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .item-espec {
@@ -303,7 +311,6 @@ h1 {
 /* CONTACTO SECTION */
 
 .contacto-container {
-    height: 90vh;
     background: #7e7e7e;
 }
 
@@ -400,6 +407,12 @@ h1 {
   .btn-submit {
     margin-top: 15px;
     text-align: end;
+  }
+
+  footer {
+    background: #7e7e7e;
+    font-size: 14px;
+    text-align: center;   
   }
   
  
